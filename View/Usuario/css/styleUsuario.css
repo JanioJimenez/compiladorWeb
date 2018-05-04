@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.bloqueIzquierdo{
+    float: left;
+    width: 62.9vw;
+    height: 100vh;
+}
+
+.cajaVacia {
+    width: 50%;
+    height: 120px;
+    margin: auto;
+}
+
+.cajaLogo {
+    width: 50%;
+    height: 130px;
+    margin: auto;
+}
+
+.logoPro {
+    margin-left: 37%;
+    width: 100%;
+    height: 100px;
+    background: url('../../../img/login.png') no-repeat;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial Black';
+    font-size: 18px;
+    color: rgb(14, 1, 49);
+}
+
+.formulario {
+    margin: auto;
+    text-align: center;
+    width: 500px; 
+    height: 300px;
+}
+
+#usuario {
+    width: 70%;
+	margin-top: 60px;
+	border-radius: 5px;
+	border: 1px solid rgb(230, 233, 233);
+	height: 35px;
+	padding: 5px 5px 5px 15px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.849); 
+    font-family: 'Arial Black';
+    font-size: 14px;
+}
+
+#clave {
+    width: 70%;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid rgb(230, 233, 233);
+	height: 35px;
+	padding: 5px 5px 5px 15px;
+    font-size: 20px; 
+    color: rgba(0, 0, 0, 0.877);    
+    font-family: 'Arial Black';
+    font-size: 14px;
+}
+
+#enviar {
+    width: 75%;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid aqua;
+	height: 50px;
+	padding: 5px 5px 5px 15px;
+    font-size: 16px;
+    color: rgb(14, 1, 49);
+    background: aqua;
+    font-family: 'Arial Black';
+}
+
+.bloqueDerecho {
+    float: right;
+    background: rgb(0, 2, 31);
+    width: 36vw;
+    height: 100vh; 
+}
+
+
+.logo {
+    margin-top: 160px;
+    margin-left: 100px;
+    background: url('../../../img/logo.png') no-repeat;
+    width: 24vw;
+    height: 56vh;
+
+}
+
+.capa {
+    position: absolute;
+    width: 36vw;
+    height: 100vh;
+    background: rgba(19, 1, 85, 0.753);
+    
+}
+
+.compilador {
+    position: absolute;
+    margin-top: 348px;
+    margin-left: 160px;
+    font-family: 'Arial Black';
+    font-size: 35px;
+    color: white;
+
+}
+
+@media only screen and (max-width: 1300px) {
+    .logo {
+        margin-top: 200px;
+        background: url('../../../img/logo.png') no-repeat;
+        background-size: 300px;
+        width: 24vw;
+        height: 56vh;
+    }
+
+    .compilador {
+        margin-left: 120px;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    .bloqueDerecho {
+        display: none;
+    }
+    
+    .bloqueIzquierdo {
+        float: left;
+        width: 100vw;
+        height: 100vh;;
+    }
+    
+    .logoPro {
+        margin-left: 37%;
+    }
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .logoPro {
+        margin-left: 30%;
+    }
+}
