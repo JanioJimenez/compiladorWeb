@@ -56,12 +56,17 @@
     font-size: 14px;
 }
 
+.campo:hover {
+    border-radius: 5px;
+    border: 1px solid aqua; 
+}
+
 #clave {
     width: 70%;
 	margin-top: 15px;
 	border-radius: 5px;
 	border: 1px solid rgb(230, 233, 233);
-	height: 35px;
+	height: 25px;
 	padding: 5px 5px 5px 15px;
     font-size: 20px; 
     color: rgba(0, 0, 0, 0.877);    
@@ -69,17 +74,31 @@
     font-size: 14px;
 }
 
+#clave:hover {
+    border-radius: 5px;
+    border: 1px solid aqua;
+}
+
 #enviar {
     width: 75%;
 	margin-top: 20px;
 	border-radius: 5px;
-	border: 1px solid aqua;
-	height: 50px;
+	border: 1px solid rgb(35, 179, 223);
+	height: 40px;
 	padding: 5px 5px 5px 15px;
     font-size: 16px;
-    color: rgb(14, 1, 49);
-    background: aqua;
+    color: white;
+    background: rgb(35, 179, 223);
     font-family: 'Arial Black';
+}
+
+#enviar:hover {
+    border-radius: 5px;
+	border: 1px solid aqua;
+    opacity: 1;
+    color: rgb(10, 3, 77);
+    transition: .8s ease;
+    background: aqua;
 }
 
 .bloqueDerecho {
