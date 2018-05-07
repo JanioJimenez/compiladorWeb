@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
+    <script src="../js/jquery-3.3.1.js"></script>
     <title>Registro</title>
 </head>
 
@@ -14,16 +15,27 @@
         <div class="cajaVacia"></div>
         <div class="cajaLogo">
             <div class="logoPro"></div>
-            <div class="titulo">Compilador Pro</div>
+            <div class="titulo">Compilador Web</div>
         </div>
-        <div class="formulario">
-            <input type="text" placeholder="Nombres" required class="campo">
-            <input type="text" placeholder="Primer apellido" required class="campo">
-            <input type="text" placeholder="Segundo apellido" required class="campo">
-            <input type="text" placeholder="País" required class="campo">
-            <input type="text" placeholder="Ciudad origen" required class="campo">
-            <input type="password" placeholder="Contraseña" required id="clave">
-            <input type="submit" value="Iniciar sesión" id="enviar">
+        <form action="">
+            <div class="formulario">
+                <div class="procesoRegistro">Proceso de registro!</div>
+                <input type="text" placeholder="Nombres" required class="campo" id="campo">
+                <input type="text" placeholder="Primer apellido" required class="campo">
+                <input type="text" placeholder="Segundo apellido" required class="campo">
+                <input type="text" placeholder="País" required class="campo">
+                <input type="text" placeholder="Ciudad origen" required class="campo">
+                <input type="text" placeholder="lenguaje de programación" required class="campo">
+                <input type="password" placeholder="Contraseña" required id="clave">
+                <input type="submit" value="Empezar" id="enviar">
+            </div>
+        </form>
+
+        <div class="cajaInicio">
+            <div class="cuenta">
+                <span class="pregunta">¿Ya tienes una cuenta?</span>
+                <input type="submit" value="Iniciar sesión" id="inic" class="iniciar">
+            </div>
         </div>
         <div class="cajaVacia"></div>
     </div>
@@ -33,6 +45,8 @@
         <span class="compilador">COMPILADOR</span>
         <div class="logo"></div>
     </div>
+
+    <script src="../js/eventos.js"></script>
 </body>
 
 </html>
