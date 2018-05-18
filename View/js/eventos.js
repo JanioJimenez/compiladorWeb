@@ -1,11 +1,11 @@
 $('#inic').on('click', function (e) {
     console.log(e);
-	window.location.href = '/compiladorWeb/view/Usuario/usuario.html';
+	window.location.href = 'View/Usuario/usuario.html';
 });
 
 $('#registrar').on('click', function (e) {
     console.log(e);
-	window.location.href = '/compiladorWeb/view/Registro/registrar.html';
+	window.location.href = 'view/Registro/registrar.html';
 });
 
 $('.campo').on('click', function (e) {
